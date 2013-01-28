@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/background_dark" >
+    
+    <LinearLayout 
+        android:id="@+id/gameLayout"
+        android:orientation="horizontal"
+        android:paddingLeft="4.0dip"
+        android:paddingTop="5.0dip"
+        android:paddingRight="4.0dip"
+        android:paddingBottom="1.0dip"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content">
+
+	    <Spinner
+	        android:id="@+id/spinConsole"
+	        android:prompt="@+id/pickConsole"
+	        android:layout_width="170dp"
+	        android:layout_height="wrap_content" />
+	
+	    <Button
+	        android:id="@+id/addGame"
+	        android:layout_width="150dp"
+	        android:layout_height="40dp"
+	        android:gravity="center_horizontal|center_vertical"
+	        android:text="@string/add_game"
+	        tools:context=".Game_Catalog_Activity"
+	        android:background="@drawable/btn_default_holo_dark" />
+    
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/movieLayout"
+        android:orientation="horizontal"
+        android:paddingLeft="4.0dip"
+        android:paddingTop="5.0dip"
+        android:paddingRight="4.0dip"
+        android:paddingBottom="1.0dip"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gameLayout">
+        
+        <Spinner 
+            android:id="@+id/spinMovie"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"/>
+        
+	    <Button
+	        android:id="@+id/addMovie"
+	        android:layout_width="150dp"
+	        android:layout_height="40dp"
+	        android:layout_gravity="center_horizontal"
+	        android:gravity="center_horizontal|center_vertical"
+	        android:text="@string/add_movie"
+	        tools:context=".Game_Catalog_Activity" />
+    
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/showLayout"
+        android:orientation="vertical"
+        android:paddingLeft="4.0dip"
+        android:paddingTop="5.0dip"
+        android:paddingRight="4.0dip"
+        android:paddingBottom="1.0dip"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/movieLayout">
+    
+	    <Button
+	        android:id="@+id/showGames"
+	        android:layout_width="200dp"
+	        android:layout_height="40dp"
+	        android:layout_gravity="center_horizontal"
+	        android:gravity="center_horizontal|center_vertical"
+	        android:text="@string/show_games"
+	        tools:context=".Game_Catalog_Activity" />
+	    
+	    <Button
+	        android:id="@+id/showMovies"
+	        android:layout_width="200dp"
+	        android:layout_height="40dp"
+	        android:layout_gravity="center_horizontal"
+	        android:gravity="center_horizontal|center_vertical"
+	        android:text="@string/show_movies"
+	        tools:context=".Game_Catalog_Activity" />
+	    
+	</LinearLayout>
+
+</RelativeLayout>

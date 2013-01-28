@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pop_elem"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/round_corners" >
+    
+    <ImageView 
+        android:id="@+id/popupImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:maxWidth="190dp"
+        android:maxHeight="190dp"
+        android:scaleType="centerCrop"
+        android:paddingTop="4dp"
+        android:contentDescription="@string/cover_image" />
+    
+    <TextView 
+        android:id="@+id/popupTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp" />
+    
+    <TextView 
+        android:id="@+id/popupProducer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp" />
+    
+    <Button
+        android:id="@+id/popupBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp" />    
+
+</LinearLayout>

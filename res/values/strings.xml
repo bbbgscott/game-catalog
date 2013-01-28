@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Game Catalog</string>
+    <string name="app_name">Game Catalog</string>
+    <string name="add_game">Add A Game</string>
+    <string name="add_movie">Add A Movie</string>
+    <string name="show_games">Show My Games</string>
+    <string name="show_movies">Show My Movies</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_game__catalog_">Game Catalog</string>
+    <string name="verify_title">Title: </string>
+    <string name="verify_publisher">Publisher: </string>
+    <string name="ok">OK</string>
+    <string name="back">Back</string>
+    <string name="pickConsole">Console</string>
+    <string name="list_empty">Nothing to show</string>
+    <string name="cover_image">Cover Image</string>
+
+    <string-array name="consoleArray">
+        <item>Gamecube</item>
+        <item>Playstation</item>
+        <item>Playstation_2</item>
+        <item>Playstation_3</item>
+        <item>Wii</item>
+        <item>Wii_U</item>
+        <item>Xbox</item>
+        <item>Xbox_360</item>
+    </string-array>
+
+    <string name="pickMovie">Format</string>
+
+    <string-array name="movieArray">
+        <item>DVD</item>
+        <item>Blu-Ray</item>
+    </string-array>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_verify">VerifyActivity</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_update">UpdateActivity</string>
+
+</resources>
